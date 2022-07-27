@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -24,9 +23,15 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+*.aps
+/.vs/UploadStation/v15
+/ProjectAA/Debug
+/.vs
+/Debug/data/log
+/ProjectAA/x64/Debug
+/Debug
