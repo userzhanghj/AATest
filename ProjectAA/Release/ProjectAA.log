@@ -1,16 +1,12 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Release\)包含从另一个项目(Youchuang_AA.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  AAControlDlg.cpp
-  SystemManager-2.cpp
-d:\code\a---aa\projectaa\systemmanager-2.cpp(1574): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\code\a---aa\projectaa\systemmanager-2.cpp(1575): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\code\a---aa\projectaa\systemmanager-2.cpp(1576): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\code\a---aa\projectaa\systemmanager-2.cpp(2894): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
-d:\code\a---aa\projectaa\systemmanager-2.cpp(2894): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“double”
-d:\code\a---aa\projectaa\systemmanager-2.cpp(2894): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“double”
-d:\code\a---aa\projectaa\systemmanager-2.cpp(2894): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“double”
+  SystemManager.cpp
+d:\code\a---github\aatest\projectaa\systemmanager.cpp(2580): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\code\a---github\aatest\projectaa\systemmanager.cpp(2583): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\code\a---github\aatest\projectaa\systemmanager.cpp(2586): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\code\a---github\aatest\projectaa\systemmanager.cpp(2601): warning C4101: “rt”: 未引用的局部变量
   正在生成代码
-  392 of 2963 functions (13.2%) were compiled, the rest were copied from previous compilation.
+  0 of 2963 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    79 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
-  ProjectAA.vcxproj -> D:\code\A---AA\Release\ProjectAA.exe
+  ProjectAA.vcxproj -> D:\code\A---GitHub\AATest\Release\ProjectAA.exe

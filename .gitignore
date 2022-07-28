@@ -29,9 +29,11 @@
 *.out
 *.app
 *.aps
-/.vs/UploadStation/v15
+*.tlog
+*.log
+*.pdb
 /ProjectAA/Debug
+/ProjectAA/Release
 /.vs
-/Debug/data/log
-/ProjectAA/x64/Debug
 /Debug
+/Release

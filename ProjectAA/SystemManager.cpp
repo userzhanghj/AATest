@@ -6,6 +6,19 @@
 extern CConfigFileManager gConfigMgr;
 extern CSystemLog     gSystemLog;
 
+//弹窗弹出一段时间后自动关闭
+int DU_MessageBoxTimeout(HWND hWnd, const WCHAR* sText, const WCHAR* sCaption, UINT uType, DWORD dwMilliseconds)
+{
+	typedef int(_stdcall* MSGBOXWAPI)(IN HWND hWnd, IN LPCWSTR lpText, IN LPCWSTR lpCaption, IN UINT type, IN WORD wLanguageId, IN DWORD dwMilliseconds);
+	int iResult;
+	HMODULE hUser32 = LoadLibrary(L"user32.dll");
+	if (hUser32) {
+		auto MessageBoxTimeout = (MSGBOXWAPI)GetProcAddress(hUser32, "MessageBoxTimeoutW");
+		iResult = MessageBoxTimeout(hWnd, sText, sCaption, uType, 0, dwMilliseconds);
+		FreeLibrary(hUser32);
+	}
+}
+
 
 CSystemManager::CSystemManager()
 {
